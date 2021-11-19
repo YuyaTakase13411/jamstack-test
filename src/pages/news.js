@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const NewsPage = ({ data }) => (
  <Layout>
    <SEO title="ニュース" />
-   <h1>Hi from the news page222</h1>
+   <h1>Hi from the news page 高畑です</h1>
 
    {data.allMicrocmsNews1.edges.map(edge => {
      const news1 = edge.node
